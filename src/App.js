@@ -1,23 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
+import SignUp from './Components/SignUp';
+import Header from './Components/Header';
+import Buttons from './Components/Buttons';
+import work from './work.png'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>Hello World</h1>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div className='left'>
+          <Header />
+          <SignUp />
+          <Buttons />
+        </div>
+        <div className='right'>
+          <h2 style={{fontSize: '3rem', marginTop: '8%'}}>Welcome To <u>Destiny</u></h2>
+          <img src={work} className='img'></img>
+        </div>
       </header>
     </div>
   );
