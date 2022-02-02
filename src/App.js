@@ -15,7 +15,7 @@ function App() {
           <Buttons />
         </div>
         <div className='right'>
-          <h2 style={{fontSize: '3rem', marginTop: '8%'}}>Welcome To <u>Destiny</u></h2>
+          <h2 style={{fontSize: '3rem', marginTop: '8%'}}>Welcome To <u>Destin</u>y</h2>
           <img src={work} className='img'></img>
         </div>
       </header>
